@@ -1,0 +1,9 @@
+[user]
+	name = andrew
+	email = dev.andrew@fatherslab.com
+[color]
+	ui = auto
+[credential]
+	helper = store
+[http]
+	followRedirects = true

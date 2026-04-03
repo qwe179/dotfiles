@@ -1,0 +1,33 @@
+" 기본 문법 하이라이트
+call plug#begin('~/.config/nvim/plugged')
+syntax on
+
+" 파일 타입 자동 감지 + 관련 플러그인 로딩
+filetype plugin indent on
+
+" 자동 줄번호 표시
+set number
+
+" 탭 대신 스페이스 4칸
+set expandtab
+set shiftwidth=4
+set tabstop=4
+
+" 컬러스킴 설정
+colorscheme ron
+
+" C/C++ 문법 강화
+autocmd FileType c,cpp setlocal shiftwidth=4 softtabstop=4 expandtab
+
+call plug#begin('~/.config/nvim/plugged')
+
+" fzf 바이너리 설치
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" fzf.vim 플러그인
+Plug 'junegunn/fzf.vim'
+
+
+Plug 'norcalli/nvim-colorizer.lua'
+
+call plug#end()

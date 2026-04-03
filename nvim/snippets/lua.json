@@ -1,0 +1,1 @@
+{"Lazy.nvim plugin":{"body":["{","    '${1:url}',","    dependencies = {","        '${2:dependencies}'","    },","    opts = { ${3:opts} },","}"],"prefix":"lazy plugin"}}

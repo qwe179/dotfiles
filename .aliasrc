@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+NVIM_BIN="$HOME/.nix-profile/bin/nvim"
+alias v="$NVIM_BIN"
+alias v.="$NVIM_BIN ."
+alias nvim="$NVIM_BIN"
+
+alias g='git'
+
+alias vf='$NVIM_BIN $(fzf --preview=bat)'
+alias cdb='cd $HOME/projects/BUILD_DIR/'
+alias doc='docker exec -it ecall /bin/bash'
+alias cdo='cd ~/projects/BUILD_DIR/device/brcm/rpi5/overlay/cm_poc/packages/apps/Car/FlabLauncher/app/src/main/res/res-home/drawable/'
+alias doc='docker exec -it telsdk_simulation /bin/bash'

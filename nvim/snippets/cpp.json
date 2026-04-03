@@ -1,0 +1,1 @@
+{"func":{"body":["${1:void} ${2:foo}(${3:args}) {","    ${4:\/\/ code}","}"],"prefix":"func"},"#guard + guard + #ifndef_guard + ifndef_guard":{"prefix":["#guard","guard","#ifndef_guard","ifndef_guard"],"body":["#ifndef ${1:FILENAME_H_}","#define ${1:FILENAME_H_}","${2:}","#endif \/\/ ${1:FILENAME_H_}"]}}

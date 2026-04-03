@@ -1,0 +1,1 @@
+{"new":{"body":["${1:type}* ${2:var} = (${1:type}*)malloc(sizeof(${1:type}));","memset(${2:var}, 0, sizeof(${1:type}));","return ${2:var};"],"prefix":"new"}}

@@ -1,0 +1,6 @@
+nvim/plugged/
+nvim/spell/
+nvim/swap/
+nvim/sessions/
+nvim/bookmarks.db.json
+nvim/bookmarks.db.json.backup

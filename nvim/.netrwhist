@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/andrew/diag_test3/build/CMakeFiles'
+let g:netrw_dirhist_0='/home/andrew/rpi_poc/BUILD_DIR/packages/apps/Car/VehicleSettings/res-overlay-eco'
+let g:netrw_dirhist_9='/home/andrew/rpi_poc/BUILD_DIR/packages/apps/Car/VehicleSettings'
+let g:netrw_dirhist_8='/home/andrew/rpi_poc/BUILD_DIR/packages/apps/Car/VehicleSettings/res-overlay-eco'
+let g:netrw_dirhist_7='/home/andrew/rpi_poc/BUILD_DIR/packages/apps/Car/VehicleSettings/res-overlay-eco/res/drawable'
+let g:netrw_dirhist_6='/home/andrew/projects/BUILD_DIR/packages/apps/Car/VehicleSettings/res-overlay-normal'
+let g:netrw_dirhist_5='/home/andrew/projects/BUILD_DIR/vendor'
+let g:netrw_dirhist_4='/home/andrew/projects/snapdragon-auto-hqx-4-5-6-0_hlos_dev_qnx/apps/qnx_ap/AMSS/multimedia/hab/driver'
+let g:netrw_dirhist_3='/home/andrew/build-autolinux/build/tcc8050-main/conf'
+let g:netrw_dirhist_2='/home/andrew/build-autolinux/poky/meta-telechips/meta-ivi/recipes-telechips-ivi/images'
