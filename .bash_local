@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-eval "$(zoxide init bash)"
+[ "$(command -v zoxide)" ] && eval "$(zoxide init bash)"
 
-export VISUAL="/snap/bin/nvim"
+export VISUAL="$HOME/.nix-profile/bin/nvim"
 export EDITOR="$VISUAL"
 
 alias ls='ls --color'

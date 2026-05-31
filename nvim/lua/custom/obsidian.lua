@@ -78,6 +78,9 @@ for _, candidate in ipairs(workspace_candidates) do
     end
 end
 
+if #opts.workspaces == 0 then
+    return
+end
 obsidian.setup(opts)
 
 vim.o.conceallevel = 2

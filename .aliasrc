@@ -6,6 +6,7 @@ alias v.="$NVIM_BIN ."
 alias nvim="$NVIM_BIN"
 
 alias g='git'
+alias z='zoxide'
 
 alias vf='$NVIM_BIN $(fzf --preview=bat)'
 alias cdb='cd $HOME/projects/BUILD_DIR/'

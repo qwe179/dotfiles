@@ -49,8 +49,14 @@ return {
             }
         },
         config = function(_, opts)
-            require('obsidian').get_client().opts.ui.enable = false
-            vim.api.nvim_buf_clear_namespace(0, vim.api.nvim_get_namespaces()['ObsidianUI'], 0, -1)
+            local ok, obsidian = pcall(require, 'obsidian')
+            if ok then
+                local ok2, client = pcall(obsidian.get_client)
+                if ok2 and client then
+                    client.opts.ui.enable = false
+                    vim.api.nvim_buf_clear_namespace(0, vim.api.nvim_get_namespaces()['ObsidianUI'], 0, -1)
+                end
+            end
             require('render-markdown').setup(opts)
         end,
         dependencies = {

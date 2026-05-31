@@ -113,6 +113,11 @@ plugins=(
 #      plugins+=(tmux-autoattach)
 #  fi
 
+# nix
+if [ -e "$HOME/.nix-profile/etc/profile.d/nix.sh" ]; then
+    . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+fi
+
 source "$OSH"/oh-my-bash.sh
 
 # User configuration
